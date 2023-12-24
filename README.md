@@ -1,6 +1,6 @@
 # vue2-boilerplate
 
-Vue project boilerplate with some interesting features included.
+Vue.js (v2) project boilerplate with some interesting features included.
 
 ## Index
 
@@ -72,3 +72,4 @@ Go to `src/components` and create a new folder (in camel-case). Then inside, cre
 ### Modify styles
 
 Go to `src/styles/all.scss` and add your file, then save it. If you are running `npm run dev-styles`, the Sass files will be compiled automatically.
+

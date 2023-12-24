@@ -1,0 +1,70 @@
+<template>
+    <div class="component Navigation">
+      <template v-if="is_opened">
+        <div class="navigation_background" v-on:click="closeState"></div>
+        <div class="position_fixed top_0 left_0 right_0 bottom_0">
+          <div class="position_relative">
+            <div class="position_absolute top_0 navigation_component" style="z-index:9999;" :class="{ is_selected: is_opened }">
+              <div class="padding_2" style="margin-top: 2px; margin-bottom: 2px;">{{ $t("Navigation") }}</div>
+              <ul class="margin_0 padding_0 list_style_type_none width_100x100">
+                <li class="width_100x100" v-on:click="() => is_opened = false">
+                  <router-link to="/">
+                    <button class="width_100x100">{{ $t("Home") }}</button>
+                  </router-link>
+                </li>
+                <li class="width_100x100" v-on:click="() => is_opened = false">
+                  <router-link to="/contact">
+                    <button class="width_100x100">{{ $t("Contact") }}</button>
+                  </router-link>
+                </li>
+                <li class="width_100x100" v-on:click="() => is_opened = false">
+                  <router-link to="/about">
+                    <button class="width_100x100">{{ $t("About this") }}</button>
+                  </router-link>
+                </li>
+                <li class="width_100x100" v-on:click="() => is_opened = false">
+                  <router-link to="/settings">
+                    <button class="width_100x100">{{ $t("Settings") }}</button>
+                  </router-link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </template>
+    </div>
+</template>
+
+<script>
+export default {
+    name: "Navigation",
+    props: {},
+    data() {
+      return {
+        is_opened: false
+      };
+    },
+    beforeCreate() {},
+    created() {},
+    beforeMount() {},
+    mounted() {},
+    beforeUpdate() {},
+    updated() {},
+    beforeUnmount() {},
+    unmounted() {},
+    activated() {},
+    deactivated() {},
+    methods: {
+      toggleState() {
+        this.is_opened = !this.is_opened;
+      },
+      closeState() {
+        this.is_opened = false;
+      }
+    }
+
+}
+</script>
+
+<style>
+</style>
