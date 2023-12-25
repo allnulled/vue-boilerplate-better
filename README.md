@@ -28,18 +28,22 @@ These are the main features that make interesting this project:
  - Routing - [`vue-router`](https://github.com/vuejs/vue-router)
  - Local database - [`dexie`](https://github.com/dexie/Dexie.js) + [`dexie-relationships`](https://github.com/ignasbernotas/dexie-relationships)
  - Local storage - [`localStorage`](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
- - AJAX - [`axios`](https://github.com/axios/axios)
- - Push notifications - [`push.js`](https://github.com/Nickersoft/push.js/)
- - Checkings - [`@allnulled/check-that`](https://github.com/allnulled/check-that)
- - UI utilities - [`vue-draggable`](https://github.com/SortableJS/Vue.Draggable)
- - Navigation
- - Badges
- - Dialogs
- - Customizable styles
+ - Send AJAX requests - [`axios`](https://github.com/axios/axios)
+ - Send push notifications - [`push.js`](https://github.com/Nickersoft/push.js/)
+ - Easy checkings - [`@allnulled/check-that`](https://github.com/allnulled/check-that)
+ - Drag and drop - [`vue-draggable`](https://github.com/SortableJS/Vue.Draggable)
+ - Navigation topbar and menu
+ - Responsive
+ - Customizable badges
+ - Dialogs - based on `win7.css`
+ - Dynamic styles - `sass`
+ - Customizable styles per-component and per-zcomponent
+ - Basic utility functions
  - Customizable utilities
  - Landing screen
  - Application metadata
  - Roboto font by default
+ - +60 reusable **zcomponents** based on **win7.css**
  - Others...
 
 ## Installation

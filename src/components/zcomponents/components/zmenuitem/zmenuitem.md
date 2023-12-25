@@ -1,6 +1,6 @@
-Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+Back to [src/components/zcomponents/zcomponents.md](../../zcomponents.md)
 
-# zmenu
+# zmenuitem
 
- - See [Vue.js (v2) component file contents](./zmenu.vue)
- - See [Sass/Css component file contents](./zmenu.scss)
+ - See [Vue.js (v2) component file contents](./zmenuitem.vue)
+ - See [Sass/Css component file contents](./zmenuitem.scss)
