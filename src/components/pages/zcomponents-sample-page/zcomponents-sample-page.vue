@@ -228,9 +228,22 @@
 
   <zpage title="zdialogport">
     <zdialogport />
-    <button v-on:click="() => $dialogs.form('Form dialog <button>ok</button>')">Form example</button>
-    <button v-on:click="() => $dialogs.confirm('Confirm dialog')">Confirm example</button>
-    <button v-on:click="() => $dialogs.inform('Inform dialog')">Inform example</button>
+    <zlayouthorizontal>
+      <zlayouthorizontalrow>
+        <zlayouthorizontalitem>
+          <button v-on:click="() => $dialogs.form('Form dialog <button>ok</button>')">Form example</button>
+          <button v-on:click="() => $dialogs.confirm('Confirm dialog')">Confirm example</button>
+          <button v-on:click="() => $dialogs.inform('Inform dialog')">Inform example</button>
+        </zlayouthorizontalitem>
+      </zlayouthorizontalrow>
+      <zlayouthorizontalrow>
+        <zlayouthorizontalitem>
+          <button v-on:click="() => $dialogs.form('Custom dialog <button>ok</button>')">Form example</button>
+          <button v-on:click="() => $dialogs.confirm('Confirm dialog')">Confirm example</button>
+          <button v-on:click="() => $dialogs.inform('Inform dialog')">Inform example</button>
+        </zlayouthorizontalitem>
+      </zlayouthorizontalrow>
+    </zlayouthorizontal>
   </zpage>
 
   <zpage title="ztabslayout">
@@ -240,8 +253,6 @@
       <ztabpanel>ztabpanel of Three</ztabpanel>
     </ztabslayout>
   </zpage>
-
-  
 
 </div>
 </template>

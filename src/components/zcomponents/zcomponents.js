@@ -24,6 +24,7 @@ import zlabel from "./components/zlabel/zlabel.vue";
 import zlayout from "./components/zlayout/zlayout.vue";
 import zlayouthorizontal from "./components/zlayouthorizontal/zlayouthorizontal.vue";
 import zlayouthorizontalitem from "./components/zlayouthorizontalitem/zlayouthorizontalitem.vue";
+import zlayouthorizontalrow from "./components/zlayouthorizontalrow/zlayouthorizontalrow.vue";
 import zlayoutnopaddingbottom from "./components/zlayoutnopaddingbottom/zlayoutnopaddingbottom.vue";
 import zlayoutnopaddingtop from "./components/zlayoutnopaddingtop/zlayoutnopaddingtop.vue";
 import zlayoutnopaddingvertical from "./components/zlayoutnopaddingvertical/zlayoutnopaddingvertical.vue";
@@ -89,6 +90,7 @@ export default {
   zlayout,
   zlayouthorizontal,
   zlayouthorizontalitem,
+  zlayouthorizontalrow,
   zlayoutnopaddingbottom,
   zlayoutnopaddingtop,
   zlayoutnopaddingvertical,

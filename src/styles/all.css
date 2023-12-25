@@ -59,6 +59,10 @@
   text-decoration: underline;
 }
 
+.zbutton {
+  width: 100%;
+}
+
 .zdialogport > div {
   position: fixed;
   top: 0;
@@ -117,6 +121,10 @@
   width: auto !important;
 }
 
+.zformselect_input {
+  width: 100%;
+}
+
 .zformtextarea .zformtextarea_input {
   resize: vertical;
   min-height: 120px;
@@ -164,6 +172,10 @@
 .zlayouthorizontalitem {
   display: table-cell;
   vertical-align: middle;
+}
+
+.zlayouthorizontalrow {
+  display: table-row;
 }
 
 .zlayoutnopaddingbottom {
@@ -239,6 +251,7 @@
 
 .zpage > .contents > .page {
   resize: both;
+  overflow: auto;
   border: 1px dashed #333;
   min-width: 240px;
   min-height: 180px;

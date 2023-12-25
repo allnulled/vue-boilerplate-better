@@ -1,0 +1,2 @@
+ - Ver [contenido de fichero de componente Vue](./zonscreendependant.vue)
+ - Ver [contenido de fichero de componente CSS](./zonscreendependant.css)

@@ -16,6 +16,7 @@ Vue.js (v2) project boilerplate with some interesting features included.
     - [Create new route](#create-new-route)
     - [Create new component](#create-new-component)
     - [Modify styles](#modify-styles)
+    - [Reuse zcomponents](#reuse-zcomponents)
 
 ## Features
 
@@ -73,3 +74,8 @@ Go to `src/components` and create a new folder (in camel-case). Then inside, cre
 
 Go to `src/styles/all.scss` and add your file, then save it. If you are running `npm run dev-styles`, the Sass files will be compiled automatically.
 
+### Reuse zcomponents
+
+The `zcomponents` library is a kit of user-interface web components coded for Vue.js (v2) and based on `win7.css` too. They will provide you a basic setup for user-interface building that is already familiar to the user.
+
+See [zcomponents](.src/components/zcomponents/zcomponents.md) to know more.

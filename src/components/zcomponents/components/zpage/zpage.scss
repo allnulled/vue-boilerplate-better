@@ -9,6 +9,7 @@
 
 .zpage > .contents > .page {
     resize: both;
+    overflow: auto;
     border: 1px dashed #333;
     min-width: 240px;
     min-height: 180px;
