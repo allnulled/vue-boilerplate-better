@@ -9,13 +9,13 @@ This directory is pretended to contain folders of the components based on Vue.js
 
 The current components associated with this project are:
 
-- [src/badges/BadgeViewer.vue](src/badges/BadgeViewer.md).
-- [src/footer/Footer.vue](src/footer/Footer.md).
-- [src/navigation/Topbar.vue](src/navigation/Topbar.md).
-- [src/navigation/Navigation.vue](src/navigation/Navigation.md).
-- [src/pages/about-page/AboutPage.vue](src/navigation/about-page/AboutPage.md).
-- [src/pages/contact-page/ContactPage.vue](src/navigation/contact-page/ContactPage.md).
-- [src/pages/home-page/HomePage.vue](src/navigation/home-page/HomePage.md).
-- [src/pages/settings-page/SettingsPage.vue](src/navigation/settings-page/SettingsPage.md).
-- [src/pages/zcomponents-sample-page/zcomponents-sample-page.vue](src/navigation/zcomponents-sample-page/zcomponents-sample-page.md).
-- [src/zcomponents/zcomponents.vue](src/zcomponents/zcomponents.md).
+- [src/badges/BadgeViewer.vue](./badges/BadgeViewer.md).
+- [src/footer/Footer.vue](./footer/Footer.md).
+- [src/navigation/Topbar.vue](./navigation/Topbar.md).
+- [src/navigation/Navigation.vue](./navigation/Navigation.md).
+- [src/pages/about-page/AboutPage.vue](./navigation/about-page/AboutPage.md).
+- [src/pages/contact-page/ContactPage.vue](./navigation/contact-page/ContactPage.md).
+- [src/pages/home-page/HomePage.vue](./navigation/home-page/HomePage.md).
+- [src/pages/settings-page/SettingsPage.vue](./navigation/settings-page/SettingsPage.md).
+- [src/pages/zcomponents-sample-page/zcomponents-sample-page.vue](./navigation/zcomponents-sample-page/zcomponents-sample-page.md).
+- [src/zcomponents/zcomponents.vue](./zcomponents/zcomponents.md).
