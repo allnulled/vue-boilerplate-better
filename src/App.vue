@@ -6,13 +6,9 @@
     </div>
     <div class="app_static">
       <BadgeViewer ref="BadgeViewer" />
-      <DialogViewer ref="DialogViewer" />
     </div>
     <!-- You can start here! -->
     <div class="app_body">
-      
-      <ZcomponentsSamplePage />
-
       <router-view></router-view>
     </div>
     <div class="app_footer">
@@ -53,7 +49,6 @@ export default {
   beforeMount() {},
   async mounted() {
     try {
-      await this.$dialogs.initialize(this);
       await this.$badges.initialize(this);
       await this.$badges.send({ title: "What", message: "Whateverrrr" });
       // @TODO: remove this conditional once you get the thing:

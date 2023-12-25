@@ -13,6 +13,10 @@ export default (components) => {
             component: components.SettingsPage,
         },
         {
+            path: "/zcomponents",
+            component: components.ZcomponentsSamplePage,
+        },
+        {
             path: "/",
             component: components.HomePage,
         },

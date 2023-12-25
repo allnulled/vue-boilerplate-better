@@ -1,0 +1,57 @@
+<template>
+<div class="Component zformfield">
+  <div>
+    <slot></slot>
+  </div>
+  <div>
+    <input
+      class="zformfield_input"
+      type="text"
+      v-model="value"
+    />
+  </div>
+</div>
+</template>
+
+<script>
+export default {
+  props: {
+    initialValue: {
+      type: String,
+      default: function () {
+        return ""
+      }
+    },
+    onChange: {
+      type: Function,
+      default: function () {}
+    }
+  },
+  data() {
+    return {
+      value: this.initialValue
+    };
+  },
+  methods: {
+
+  },
+  watch: {
+    value(new_value) {
+      this.onChange(new_value, this);
+    }
+  },
+  computed: {},
+  beforeCreate() {},
+  created() {},
+  beforeMount() {},
+  mounted() {},
+  beforeUpdate() {},
+  updated() {},
+  beforeUnmount() {},
+  unmounted() {},
+};
+</script>
+
+<style>
+  
+</style>

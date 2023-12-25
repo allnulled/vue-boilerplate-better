@@ -1,4 +1,3 @@
-import DialogViewer from "./dialogs/DialogViewer.vue";
 import BadgeViewer from "./badges/BadgeViewer.vue";
 import Navigation from "./navigation/Navigation.vue";
 import Topbar from "./navigation/Topbar.vue";
@@ -13,11 +12,10 @@ import ZcomponentsSamplePage from "./pages/zcomponents-sample-page/zcomponents-s
 
 // @TODO: drop this line when you caught the thing:
 import Demo from "./Demo.vue";
-import zcomponents from "../lib/zcomponents/zcomponents.js";
+import zcomponents from "./zcomponents/zcomponents.js";
 
 export default {
     WelcomeView,
-    DialogViewer,
     BadgeViewer,
     Navigation,
     Topbar,

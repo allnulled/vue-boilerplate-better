@@ -1,4 +1,39 @@
-@import "../lib/win7/win7.scoped.2.css";
+@import "./win7/win7.scoped.2.css";
+.win7 .VuejsCalendario table.tabla_de_calendario {
+  width: 100%;
+}
+
+.win7 .VuejsCalendario button.boton_de_calendario {
+  min-width: auto;
+  width: 100%;
+  padding: 2px;
+}
+
+.win7 .VuejsCalendario button.boton_de_mover_mes {
+  width: 100%;
+}
+
+.win7 .VuejsCalendario input.entrada_de_calendario {
+  min-width: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.win7 .VuejsCalendario .chivato_de_fecha {
+  font-size: 8px;
+  font-family: monospace;
+  text-align: center;
+}
+
+.win7 .VuejsCalendario .vuejs_calendario_contenedor {
+  max-width: 220px;
+  background-color: #222;
+  color: white;
+  padding: 4px;
+  border-radius: 2pt;
+  box-shadow: 0 0 4px black;
+}
+
 .zbiglist {
   list-style-type: none;
   padding: 0px;
@@ -13,6 +48,185 @@
   border-top: none;
 }
 
+.zbreadcrumb {
+  padding: 12px;
+  background-color: #555;
+  color: white;
+}
+
+.zbreadcrumb .zlink {
+  color: white;
+  text-decoration: underline;
+}
+
+.zdialogport > div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.zdialogport > div > table {
+  width: 100%;
+  height: 100%;
+}
+
+.zdialogport > div > table > tbody > tr > td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.zdialogport > div > table > tbody > tr > td > div {
+  display: inline-block;
+  text-align: left;
+  max-width: 400px;
+  width: 100%;
+}
+
+.zdialogport > div > table > tbody > tr > td > div > .zwindow > .zwindowbody {
+  min-height: auto;
+  overflow: scroll;
+}
+
+.zformdate_table {
+  width: 100%;
+}
+
+.zformdate_input {
+  width: 100%;
+}
+
+.zformdate_button {
+  min-width: 20px !important;
+  width: auto !important;
+}
+
+.zformdatetime_table {
+  width: 100%;
+}
+
+.zformdatetime_input {
+  width: 100%;
+}
+
+.zformdatetime_button {
+  min-width: 20px !important;
+  width: auto !important;
+}
+
+.zformtextarea .zformtextarea_input {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.zformtime_table {
+  width: 100%;
+}
+
+.zformtime_input {
+  width: 100%;
+}
+
+.zformtime_button {
+  min-width: 20px !important;
+  width: auto !important;
+}
+
+.zjumbotron {
+  display: table;
+  width: 100%;
+  min-height: 80px;
+}
+
+.zjumbotron > .contents {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #222;
+  color: white;
+  font-size: 12px;
+}
+
+.zlayout {
+  padding: 4px;
+}
+
+.zlayouthorizontal {
+  display: table;
+  width: 100%;
+}
+
+.zlayouthorizontalitem {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.zlayoutnopaddingbottom {
+  padding: 4px;
+  padding-bottom: 0px;
+}
+
+.zlayoutnopaddingtop {
+  padding: 4px;
+  padding-top: 0px;
+}
+
+.zlayoutnopaddingvertical {
+  padding: 4px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.zonscreendependant > .zonscreenxs {
+  display: none;
+}
+
+.zonscreendependant > .zonscreensm {
+  display: none;
+}
+
+.zonscreendependant > .zonscreenmd {
+  display: none;
+}
+
+.zonscreendependant > .zonscreenlg {
+  display: none;
+}
+
+.zonscreendependant > .zonscreenxl {
+  display: none;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .zonscreendependant > .zonscreenlg {
+    display: block !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .zonscreendependant > .zonscreenmd {
+    display: block !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .zonscreendependant > .zonscreensm {
+    display: block !important;
+  }
+}
+@media (min-width: 1200px) {
+  .zonscreendependant > .zonscreenxl {
+    display: block !important;
+  }
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  .zonscreendependant > .zonscreenxs {
+    display: block !important;
+  }
+}
 .zpage {
   text-align: center;
 }
@@ -26,12 +240,55 @@
 .zpage > .contents > .page {
   resize: both;
   border: 1px dashed #333;
+  min-width: 240px;
+  min-height: 180px;
+}
+
+.zpill {
+  display: inline-block;
+  padding: 4px;
+  font-size: 10px;
+  border-radius: 4pt;
+  background-color: #333;
+  color: white;
+}
+
+.zseparator {
+  margin: 0px;
+  padding: 0px;
+}
+
+.zstatic {
+  position: absolute;
+}
+
+.zsubtitle {
+  padding: 12px;
+  background-color: #444;
+  color: white;
+  font-size: 15px;
+}
+
+.ztabpanel {
+  display: none;
+}
+
+.ztabpanel.active {
+  display: block;
+}
+
+.ztabpanel {
+  display: none;
+}
+
+.ztabpanel.active {
+  display: block;
 }
 
 .ztitle {
   background-color: #333;
   color: #FFF;
-  font-size: 15px;
+  font-size: 18px;
   padding: 12px;
 }
 

@@ -1,10 +1,10 @@
-# vue2-boilerplate
+# vue2-boilerplate-better
 
 Vue.js (v2) project boilerplate with some interesting features included.
 
 ## Index
 
-- [vue2-boilerplate](#vue2-boilerplate)
+- [vue2-boilerplate-better](#vue2-boilerplate-better)
   - [Index](#index)
   - [Features](#features)
   - [Installation](#installation)

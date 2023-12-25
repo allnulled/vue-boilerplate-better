@@ -1,6 +1,6 @@
 <template>
     <div class="component SettingsPage">
-        <h5>Idioma</h5>
+        <h5>Language:</h5>
         <div>
             <select v-model="selected_language">
                 <option value="en">English</option>

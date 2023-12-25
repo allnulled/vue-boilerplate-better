@@ -12,9 +12,7 @@ import metadata from "./metadata.js";
 import components from "./components/all.js";
 import storage from "./database/storage.js";
 import database from "./database/database.js";
-import dialogs from "./components/dialogs/dialogs.js";
 import badges from "./components/badges/badges.js";
-import "./lib/zcomponents/zcomponents.js";
 import utils from "./utils/all.js";
 
 Vue.config.productionTip = false
@@ -32,12 +30,12 @@ Vue.prototype.$check = Check;
 Vue.prototype.$storage = storage;
 Vue.prototype.$database = database;
 Vue.prototype.$pushNotifications = Push;
-Vue.prototype.$dialogs = dialogs;
 Vue.prototype.$badges = badges;
 Vue.prototype.$metadata = metadata;
 Vue.prototype.$utils = utils;
 Vue.prototype.$noop = () => 0;
 Vue.prototype.$window = window;
+Vue.prototype.$vue = Vue;
 
 /* COMPONENTS */
 for (let componentId in components) {

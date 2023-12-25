@@ -27,6 +27,11 @@
                     <button class="width_100x100">{{ $t("Settings") }}</button>
                   </router-link>
                 </li>
+                <li class="width_100x100" v-on:click="() => is_opened = false">
+                  <router-link to="/zcomponents">
+                    <button class="width_100x100">{{ $t("ZComponents examples") }}</button>
+                  </router-link>
+                </li>
               </ul>
             </div>
           </div>
@@ -57,9 +62,11 @@ export default {
     methods: {
       toggleState() {
         this.is_opened = !this.is_opened;
+        this.$forceUpdate(true);
       },
       closeState() {
         this.is_opened = false;
+        this.$forceUpdate(true);
       }
     }
 
