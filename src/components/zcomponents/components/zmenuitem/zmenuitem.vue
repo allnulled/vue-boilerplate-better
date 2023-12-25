@@ -1,5 +1,5 @@
 <template>
-  <li role="menuitem" class="Component zmenubaritem">
+  <li role="menuitem" class="Component zmenuitem">
     <slot></slot>
   </li>
 </template>

@@ -13,9 +13,10 @@ The current components associated with this project are:
 - [src/footer/Footer.vue](./footer/Footer.md).
 - [src/navigation/Topbar.vue](./navigation/Topbar.md).
 - [src/navigation/Navigation.vue](./navigation/Navigation.md).
-- [src/pages/about-page/AboutPage.vue](./navigation/about-page/AboutPage.md).
-- [src/pages/contact-page/ContactPage.vue](./navigation/contact-page/ContactPage.md).
-- [src/pages/home-page/HomePage.vue](./navigation/home-page/HomePage.md).
-- [src/pages/settings-page/SettingsPage.vue](./navigation/settings-page/SettingsPage.md).
-- [src/pages/zcomponents-sample-page/zcomponents-sample-page.vue](./navigation/zcomponents-sample-page/zcomponents-sample-page.md).
+- [src/pages](./pages).
+- [src/pages/about-page/AboutPage.vue](./pages/about-page/AboutPage.md).
+- [src/pages/contact-page/ContactPage.vue](./pages/contact-page/ContactPage.md).
+- [src/pages/home-page/HomePage.vue](./pages/home-page/HomePage.md).
+- [src/pages/settings-page/SettingsPage.vue](./pages/settings-page/SettingsPage.md).
+- [src/pages/zcomponents-sample-page/zcomponents-sample-page.vue](./pages/zcomponents-sample-page/zcomponents-sample-page.md).
 - [src/zcomponents/zcomponents.vue](./zcomponents/zcomponents.md).

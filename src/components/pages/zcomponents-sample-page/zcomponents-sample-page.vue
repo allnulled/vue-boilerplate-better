@@ -1,33 +1,102 @@
 <template>
 <div>
 
-  <zpage title="zmenubar">
+  <zpage title="zmenubar" id="menubar">
     <zmenubar>
       <zmenubaritem>
-        <a href="javascript:void(0)">zmenubaritem One</a>
+        <zlink>zmenubaritem.one</zlink>
         <zmenu>
-          <zmenuitem>One.one</zmenuitem>
-          <zmenuitem>One.two</zmenuitem>
-          <zmenuitem>One.three</zmenuitem>
+          <zmenuitem>
+            <img src="https://img.icons8.com/color/18/000000/monitor--v1.png" />
+            <zlink>one.one <span style="float:right;">▸</span></zlink>
+            <zmenu>
+              <zmenuitem>
+                <zlink>one.one.one <span style="float:right;">▸</span></zlink>
+                <zmenu>
+                  <zmenuitem>
+                    <zlink href="#menubar">one.one.one.one</zlink>
+                  </zmenuitem>
+                  <zmenuitem>
+                    <zlink href="#menubar">one.one.one.two</zlink>
+                  </zmenuitem>
+                  <zmenuitem>
+                    <zlink href="#menubar">one.one.one.three</zlink>
+                  </zmenuitem>
+                </zmenu>
+              </zmenuitem>
+              <zmenuitem>
+                <zlink href="#menubar">one.one.two</zlink>
+              </zmenuitem>
+              <zmenuitem>
+                <zlink href="#menubar">one.one.three</zlink>
+              </zmenuitem>
+            </zmenu>
+          </zmenuitem>
+          <zmenuitem>
+            <zlink href="#menubar">one.two</zlink>
+          </zmenuitem>
+          <zmenuitem>
+            <zlink href="#menubar">one.three</zlink>
+          </zmenuitem>
         </zmenu>
       </zmenubaritem>
       <zmenubaritem>
-        <a href="javascript:void(0)">zmenubaritem Two</a>
+        <zlink>zmenubaritem.two</zlink>
         <zmenu>
-          <zmenuitem>Two.one</zmenuitem>
-          <zmenuitem>Two.two</zmenuitem>
-          <zmenuitem>Two.three</zmenuitem>
+          <zmenuitem>
+            <zlink href="#menubar">two.one</zlink>
+          </zmenuitem>
+          <zmenuitem>
+            <zlink href="#menubar">two.two</zlink>
+          </zmenuitem>
+          <zmenuitem>
+            <zlink href="#menubar">two.three</zlink>
+          </zmenuitem>
         </zmenu>
       </zmenubaritem>
       <zmenubaritem>
-        <a href="javascript:void(0)">zmenubaritem Three</a>
+        <zlink>zmenubaritem.three</zlink>
         <zmenu>
-          <zmenuitem>Three.one</zmenuitem>
-          <zmenuitem>Three.two</zmenuitem>
-          <zmenuitem>Three.three</zmenuitem>
+          <zmenuitem>
+            <zlink href="#menubar">three.one</zlink>
+          </zmenuitem>
+          <zmenuitem>
+            <zlink href="#menubar">three.two</zlink>
+          </zmenuitem>
+          <zmenuitem>
+            <zlink href="#menubar">three.three</zlink>
+          </zmenuitem>
         </zmenu>
       </zmenubaritem>
     </zmenubar>
+  </zpage>
+
+  <zpage title="zmenu">
+    <zmenu>
+      <zmenuitem>
+        <zlink>One.one</zlink>
+      </zmenuitem>
+      <zmenuitem>
+        <zlink>One.two</zlink>
+      </zmenuitem>
+      <zmenuitem class="has-divider">
+        <zlink>One.three</zlink>
+      </zmenuitem>
+      <zmenuitem aria-disabled="true">
+        <zlink>One.four</zlink>
+      </zmenuitem>
+      <zmenuitem aria-disabled="true" class="has-divider">
+        <zlink>One.five</zlink>
+      </zmenuitem>
+      <zmenuitem>
+        <img src="https://img.icons8.com/color/18/000000/monitor--v1.png" />
+        <zlink>One.six</zlink>
+      </zmenuitem>
+      <zmenuitem>
+        <img src="https://img.icons8.com/color/18/000000/monitor--v1.png" />
+        <zlink>One.seven</zlink>
+      </zmenuitem>
+    </zmenu>
   </zpage>
 
   <zpage title="zjumbotron">

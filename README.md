@@ -8,6 +8,7 @@ Vue.js (v2) project boilerplate with some interesting features included.
   - [Index](#index)
   - [Features](#features)
   - [Installation](#installation)
+  - [Directory structure](#directory-structure)
   - [Usage](#usage)
     - [Watchdog for CSS](#watchdog-for-css)
     - [Watchdog for JS](#watchdog-for-js)
@@ -44,6 +45,19 @@ These are the main features that make interesting this project:
 ## Installation
 
 Clone the repo in a fresh directory, then from console: `npm install`
+
+## Directory structure
+
+- [src](./src/README.md)
+   - [assets](./src/assets/README.md)
+   - [components](./src/components/README.md)
+   - [database](./src/database/README.md)
+   - [i18n](./src/i18n/README.md)
+   - [routes](./src/routes/README.md)
+   - [styles](./src/styles/README.md)
+   - [utils](./src/utils/README.md)
+
+
 
 ## Usage
 

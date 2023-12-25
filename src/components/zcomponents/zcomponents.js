@@ -33,6 +33,8 @@ import zlayoutverticalitem from "./components/zlayoutverticalitem/zlayoutvertica
 import zlink from "./components/zlink/zlink.vue";
 import zmenubar from "./components/zmenubar/zmenubar.vue";
 import zmenubaritem from "./components/zmenubaritem/zmenubaritem.vue";
+import zmenu from "./components/zmenu/zmenu.vue";
+import zmenuitem from "./components/zmenuitem/zmenuitem.vue";
 import zonscreendependant from "./components/zonscreendependant/zonscreendependant.vue";
 import zonscreenlg from "./components/zonscreenlg/zonscreenlg.vue";
 import zonscreenmd from "./components/zonscreenmd/zonscreenmd.vue";
@@ -101,6 +103,8 @@ export default {
   zlink,
   zmenubar,
   zmenubaritem,
+  zmenu,
+  zmenuitem,
   zonscreendependant,
   zonscreenlg,
   zonscreenmd,
