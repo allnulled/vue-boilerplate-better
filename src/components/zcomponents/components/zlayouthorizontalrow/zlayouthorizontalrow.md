@@ -1,4 +1,4 @@
 # zlayouthorizontalrow
 
  - Ver [contenido de fichero de componente Vue](./zlayouthorizontalrow.vue)
- - Ver [contenido de fichero de componente CSS](./zlayouthorizontalrow.css)
+ - Ver [contenido de fichero de componente CSS](./zlayouthorizontalrow.scss)

@@ -1,4 +1,4 @@
 # zbiglistitem
 
  - Ver [contenido de fichero de componente Vue](./zbiglistitem.vue)
- - Ver [contenido de fichero de componente CSS](./zbiglistitem.css)
+ - Ver [contenido de fichero de componente CSS](./zbiglistitem.scss)

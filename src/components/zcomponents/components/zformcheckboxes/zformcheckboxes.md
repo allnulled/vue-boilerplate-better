@@ -1,4 +1,4 @@
 # zformcheckboxes
 
  - Ver [contenido de fichero de componente Vue](./zformcheckboxes.vue)
- - Ver [contenido de fichero de componente CSS](./zformcheckboxes.css)
+ - Ver [contenido de fichero de componente CSS](./zformcheckboxes.scss)

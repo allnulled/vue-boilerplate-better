@@ -1,4 +1,4 @@
 # zformselect
 
  - Ver [contenido de fichero de componente Vue](./zformselect.vue)
- - Ver [contenido de fichero de componente CSS](./zformselect.css)
+ - Ver [contenido de fichero de componente CSS](./zformselect.scss)

@@ -1,4 +1,4 @@
 # zformnumber
 
  - Ver [contenido de fichero de componente Vue](./zformnumber.vue)
- - Ver [contenido de fichero de componente CSS](./zformnumber.css)
+ - Ver [contenido de fichero de componente CSS](./zformnumber.scss)

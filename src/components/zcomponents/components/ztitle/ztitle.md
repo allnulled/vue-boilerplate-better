@@ -1,4 +1,4 @@
 # ztitle
 
  - Ver [contenido de fichero de componente Vue](./ztitle.vue)
- - Ver [contenido de fichero de componente CSS](./ztitle.css)
+ - Ver [contenido de fichero de componente CSS](./ztitle.scss)

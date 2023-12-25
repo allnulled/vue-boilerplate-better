@@ -1,4 +1,4 @@
 # zformfield
 
  - Ver [contenido de fichero de componente Vue](./zformfield.vue)
- - Ver [contenido de fichero de componente CSS](./zformfield.css)
+ - Ver [contenido de fichero de componente CSS](./zformfield.scss)
