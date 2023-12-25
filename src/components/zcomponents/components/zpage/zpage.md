@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zpage
 
- - Ver [contenido de fichero de componente Vue](./zpage.vue)
- - Ver [contenido de fichero de componente CSS](./zpage.scss)
+ - See [Vue.js (v2) component file contents](./zpage.vue)
+ - See [Sass/Css component file contents](./zpage.scss)

@@ -31,6 +31,8 @@ import zlayoutnopaddingvertical from "./components/zlayoutnopaddingvertical/zlay
 import zlayoutvertical from "./components/zlayoutvertical/zlayoutvertical.vue";
 import zlayoutverticalitem from "./components/zlayoutverticalitem/zlayoutverticalitem.vue";
 import zlink from "./components/zlink/zlink.vue";
+import zmenubar from "./components/zmenubar/zmenubar.vue";
+import zmenubaritem from "./components/zmenubaritem/zmenubaritem.vue";
 import zonscreendependant from "./components/zonscreendependant/zonscreendependant.vue";
 import zonscreenlg from "./components/zonscreenlg/zonscreenlg.vue";
 import zonscreenmd from "./components/zonscreenmd/zonscreenmd.vue";
@@ -97,6 +99,8 @@ export default {
   zlayoutvertical,
   zlayoutverticalitem,
   zlink,
+  zmenubar,
+  zmenubaritem,
   zonscreendependant,
   zonscreenlg,
   zonscreenmd,

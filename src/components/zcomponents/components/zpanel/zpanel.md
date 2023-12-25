@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zpanel
 
- - Ver [contenido de fichero de componente Vue](./zpanel.vue)
- - Ver [contenido de fichero de componente CSS](./zpanel.scss)
+ - See [Vue.js (v2) component file contents](./zpanel.vue)
+ - See [Sass/Css component file contents](./zpanel.scss)

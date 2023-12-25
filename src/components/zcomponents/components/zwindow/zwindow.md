@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zwindow
 
- - Ver [contenido de fichero de componente Vue](./zwindow.vue)
- - Ver [contenido de fichero de componente CSS](./zwindow.scss)
+ - See [Vue.js (v2) component file contents](./zwindow.vue)
+ - See [Sass/Css component file contents](./zwindow.scss)

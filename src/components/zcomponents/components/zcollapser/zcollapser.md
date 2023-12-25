@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zcollapser
 
- - Ver [contenido de fichero de componente Vue](./zcollapser.vue)
- - Ver [contenido de fichero de componente CSS](./zcollapser.scss)
+ - See [Vue.js (v2) component file contents](./zcollapser.vue)
+ - See [Sass/Css component file contents](./zcollapser.scss)

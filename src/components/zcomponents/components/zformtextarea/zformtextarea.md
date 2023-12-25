@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zformtextarea
 
- - Ver [contenido de fichero de componente Vue](./zformtextarea.vue)
- - Ver [contenido de fichero de componente CSS](./zformtextarea.scss)
+ - See [Vue.js (v2) component file contents](./zformtextarea.vue)
+ - See [Sass/Css component file contents](./zformtextarea.scss)

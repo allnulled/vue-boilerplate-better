@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zformdate
 
- - Ver [contenido de fichero de componente Vue](./zformdate.vue)
- - Ver [contenido de fichero de componente CSS](./zformdate.scss)
+ - See [Vue.js (v2) component file contents](./zformdate.vue)
+ - See [Sass/Css component file contents](./zformdate.scss)

@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zprogressbar
 
- - Ver [contenido de fichero de componente Vue](./zprogressbar.vue)
- - Ver [contenido de fichero de componente CSS](./zprogressbar.scss)
+ - See [Vue.js (v2) component file contents](./zprogressbar.vue)
+ - See [Sass/Css component file contents](./zprogressbar.scss)

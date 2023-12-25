@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zlayoutnopaddingtop
 
- - Ver [contenido de fichero de componente Vue](./zlayoutnopaddingtop.vue)
- - Ver [contenido de fichero de componente CSS](./zlayoutnopaddingtop.scss)
+ - See [Vue.js (v2) component file contents](./zlayoutnopaddingtop.vue)
+ - See [Sass/Css component file contents](./zlayoutnopaddingtop.scss)

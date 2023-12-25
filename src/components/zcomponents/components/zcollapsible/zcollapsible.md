@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zcollapsible
 
- - Ver [contenido de fichero de componente Vue](./zcollapsible.vue)
- - Ver [contenido de fichero de componente CSS](./zcollapsible.scss)
+ - See [Vue.js (v2) component file contents](./zcollapsible.vue)
+ - See [Sass/Css component file contents](./zcollapsible.scss)

@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # ztableheader
 
- - Ver [contenido de fichero de componente Vue](./ztableheader.vue)
- - Ver [contenido de fichero de componente CSS](./ztableheader.scss)
+ - See [Vue.js (v2) component file contents](./ztableheader.vue)
+ - See [Sass/Css component file contents](./ztableheader.scss)

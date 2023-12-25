@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zformfield
 
- - Ver [contenido de fichero de componente Vue](./zformfield.vue)
- - Ver [contenido de fichero de componente CSS](./zformfield.scss)
+ - See [Vue.js (v2) component file contents](./zformfield.vue)
+ - See [Sass/Css component file contents](./zformfield.scss)

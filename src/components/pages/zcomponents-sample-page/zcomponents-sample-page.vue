@@ -1,6 +1,35 @@
 <template>
 <div>
 
+  <zpage title="zmenubar">
+    <zmenubar>
+      <zmenubaritem>
+        <a href="javascript:void(0)">zmenubaritem One</a>
+        <zmenu>
+          <zmenuitem>One.one</zmenuitem>
+          <zmenuitem>One.two</zmenuitem>
+          <zmenuitem>One.three</zmenuitem>
+        </zmenu>
+      </zmenubaritem>
+      <zmenubaritem>
+        <a href="javascript:void(0)">zmenubaritem Two</a>
+        <zmenu>
+          <zmenuitem>Two.one</zmenuitem>
+          <zmenuitem>Two.two</zmenuitem>
+          <zmenuitem>Two.three</zmenuitem>
+        </zmenu>
+      </zmenubaritem>
+      <zmenubaritem>
+        <a href="javascript:void(0)">zmenubaritem Three</a>
+        <zmenu>
+          <zmenuitem>Three.one</zmenuitem>
+          <zmenuitem>Three.two</zmenuitem>
+          <zmenuitem>Three.three</zmenuitem>
+        </zmenu>
+      </zmenubaritem>
+    </zmenubar>
+  </zpage>
+
   <zpage title="zjumbotron">
     <zjumbotron>
       zjumbotron

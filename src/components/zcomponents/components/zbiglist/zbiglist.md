@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zbiglist
 
- - Ver [contenido de fichero de componente Vue](./zbiglist.vue)
- - Ver [contenido de fichero de componente CSS](./zbiglist.scss)
+ - See [Vue.js (v2) component file contents](./zbiglist.vue)
+ - See [Sass/Css component file contents](./zbiglist.scss)

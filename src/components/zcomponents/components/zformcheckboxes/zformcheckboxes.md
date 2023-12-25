@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zformcheckboxes
 
- - Ver [contenido de fichero de componente Vue](./zformcheckboxes.vue)
- - Ver [contenido de fichero de componente CSS](./zformcheckboxes.scss)
+ - See [Vue.js (v2) component file contents](./zformcheckboxes.vue)
+ - See [Sass/Css component file contents](./zformcheckboxes.scss)

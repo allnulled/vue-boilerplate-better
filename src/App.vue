@@ -52,8 +52,8 @@ export default {
       await this.$badges.initialize(this);
       await this.$badges.send({ title: "What", message: "Whateverrrr" });
       // @TODO: remove this conditional once you get the thing:
-      if(!this.$route.path.startsWith("/horas")) {
-        this.$router.push("/horas");
+      if(!this.$route.path.startsWith("/zcomponents")) {
+        this.$router.push("/zcomponents");
       }
       await this.$utils.timeout(3000);
       this.is_loaded = true;

@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zseparator
 
- - Ver [contenido de fichero de componente Vue](./zseparator.vue)
- - Ver [contenido de fichero de componente CSS](./zseparator.scss)
+ - See [Vue.js (v2) component file contents](./zseparator.vue)
+ - See [Sass/Css component file contents](./zseparator.scss)

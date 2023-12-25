@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zbutton
 
- - Ver [contenido de fichero de componente Vue](./zbutton.vue)
- - Ver [contenido de fichero de componente CSS](./zbutton.scss)
+ - See [Vue.js (v2) component file contents](./zbutton.vue)
+ - See [Sass/Css component file contents](./zbutton.scss)

@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zwindowtitle
 
- - Ver [contenido de fichero de componente Vue](./zwindowtitle.vue)
- - Ver [contenido de fichero de componente CSS](./zwindowtitle.scss)
+ - See [Vue.js (v2) component file contents](./zwindowtitle.vue)
+ - See [Sass/Css component file contents](./zwindowtitle.scss)

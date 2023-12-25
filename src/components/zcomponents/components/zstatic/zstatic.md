@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zstatic
 
- - Ver [contenido de fichero de componente Vue](./zstatic.vue)
- - Ver [contenido de fichero de componente CSS](./zstatic.scss)
+ - See [Vue.js (v2) component file contents](./zstatic.vue)
+ - See [Sass/Css component file contents](./zstatic.scss)

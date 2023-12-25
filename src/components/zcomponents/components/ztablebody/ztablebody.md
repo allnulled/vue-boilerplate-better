@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # ztablebody
 
- - Ver [contenido de fichero de componente Vue](./ztablebody.vue)
- - Ver [contenido de fichero de componente CSS](./ztablebody.scss)
+ - See [Vue.js (v2) component file contents](./ztablebody.vue)
+ - See [Sass/Css component file contents](./ztablebody.scss)

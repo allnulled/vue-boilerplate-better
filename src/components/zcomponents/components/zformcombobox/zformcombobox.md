@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zformcombobox
 
- - Ver [contenido de fichero de componente Vue](./zformcombobox.vue)
- - Ver [contenido de fichero de componente CSS](./zformcombobox.scss)
+ - See [Vue.js (v2) component file contents](./zformcombobox.vue)
+ - See [Sass/Css component file contents](./zformcombobox.scss)

@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zpill
 
- - Ver [contenido de fichero de componente Vue](./zpill.vue)
- - Ver [contenido de fichero de componente CSS](./zpill.scss)
+ - See [Vue.js (v2) component file contents](./zpill.vue)
+ - See [Sass/Css component file contents](./zpill.scss)

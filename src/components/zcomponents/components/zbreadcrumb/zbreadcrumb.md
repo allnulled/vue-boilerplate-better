@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zbreadcrumb
 
- - Ver [contenido de fichero de componente Vue](./zbreadcrumb.vue)
- - Ver [contenido de fichero de componente CSS](./zbreadcrumb.scss)
+ - See [Vue.js (v2) component file contents](./zbreadcrumb.vue)
+ - See [Sass/Css component file contents](./zbreadcrumb.scss)

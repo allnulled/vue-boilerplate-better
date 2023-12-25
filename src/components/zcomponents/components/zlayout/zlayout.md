@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zlayout
 
- - Ver [contenido de fichero de componente Vue](./zlayout.vue)
- - Ver [contenido de fichero de componente CSS](./zlayout.scss)
+ - See [Vue.js (v2) component file contents](./zlayout.vue)
+ - See [Sass/Css component file contents](./zlayout.scss)

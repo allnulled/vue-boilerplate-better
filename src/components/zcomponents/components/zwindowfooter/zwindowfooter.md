@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zwindowfooter
 
- - Ver [contenido de fichero de componente Vue](./zwindowfooter.vue)
- - Ver [contenido de fichero de componente CSS](./zwindowfooter.scss)
+ - See [Vue.js (v2) component file contents](./zwindowfooter.vue)
+ - See [Sass/Css component file contents](./zwindowfooter.scss)

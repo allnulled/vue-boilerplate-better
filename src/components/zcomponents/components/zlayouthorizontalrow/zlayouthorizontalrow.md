@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zlayouthorizontalrow
 
- - Ver [contenido de fichero de componente Vue](./zlayouthorizontalrow.vue)
- - Ver [contenido de fichero de componente CSS](./zlayouthorizontalrow.scss)
+ - See [Vue.js (v2) component file contents](./zlayouthorizontalrow.vue)
+ - See [Sass/Css component file contents](./zlayouthorizontalrow.scss)

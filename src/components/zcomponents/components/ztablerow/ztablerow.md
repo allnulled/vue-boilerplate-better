@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # ztablerow
 
- - Ver [contenido de fichero de componente Vue](./ztablerow.vue)
- - Ver [contenido de fichero de componente CSS](./ztablerow.scss)
+ - See [Vue.js (v2) component file contents](./ztablerow.vue)
+ - See [Sass/Css component file contents](./ztablerow.scss)

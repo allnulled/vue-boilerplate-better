@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zwindowfooteritem
 
- - Ver [contenido de fichero de componente Vue](./zwindowfooteritem.vue)
- - Ver [contenido de fichero de componente CSS](./zwindowfooteritem.scss)
+ - See [Vue.js (v2) component file contents](./zwindowfooteritem.vue)
+ - See [Sass/Css component file contents](./zwindowfooteritem.scss)

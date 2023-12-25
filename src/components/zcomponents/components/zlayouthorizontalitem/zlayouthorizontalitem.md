@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zlayouthorizontalitem
 
- - Ver [contenido de fichero de componente Vue](./zlayouthorizontalitem.vue)
- - Ver [contenido de fichero de componente CSS](./zlayouthorizontalitem.scss)
+ - See [Vue.js (v2) component file contents](./zlayouthorizontalitem.vue)
+ - See [Sass/Css component file contents](./zlayouthorizontalitem.scss)

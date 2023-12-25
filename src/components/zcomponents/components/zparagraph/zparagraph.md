@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zparagraph
 
- - Ver [contenido de fichero de componente Vue](./zparagraph.vue)
- - Ver [contenido de fichero de componente CSS](./zparagraph.scss)
+ - See [Vue.js (v2) component file contents](./zparagraph.vue)
+ - See [Sass/Css component file contents](./zparagraph.scss)

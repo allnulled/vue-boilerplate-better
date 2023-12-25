@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zwindowbody
 
- - Ver [contenido de fichero de componente Vue](./zwindowbody.vue)
- - Ver [contenido de fichero de componente CSS](./zwindowbody.scss)
+ - See [Vue.js (v2) component file contents](./zwindowbody.vue)
+ - See [Sass/Css component file contents](./zwindowbody.scss)

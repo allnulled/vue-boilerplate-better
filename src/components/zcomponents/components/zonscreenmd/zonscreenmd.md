@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zonscreenmd
 
- - Ver [contenido de fichero de componente Vue](./zonscreenmd.vue)
- - Ver [contenido de fichero de componente CSS](./zonscreenmd.scss)
+ - See [Vue.js (v2) component file contents](./zonscreenmd.vue)
+ - See [Sass/Css component file contents](./zonscreenmd.scss)

@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # zdialogcurrent
 
- - Ver [contenido de fichero de componente Vue](./zdialogcurrent.vue)
- - Ver [contenido de fichero de componente CSS](./zdialogcurrent.scss)
+ - See [Vue.js (v2) component file contents](./zdialogcurrent.vue)
+ - See [Sass/Css component file contents](./zdialogcurrent.scss)

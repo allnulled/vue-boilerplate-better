@@ -1,4 +1,6 @@
+Back to [src/components/zcomponents/zcomponents.md](../zcomponents.md)
+
 # vuejscalendario
 
- - Ver [contenido de fichero de componente Vue](./vuejscalendario.vue)
- - Ver [contenido de fichero de componente CSS](./vuejscalendario.scss)
+ - See [Vue.js (v2) component file contents](./vuejscalendario.vue)
+ - See [Sass/Css component file contents](./vuejscalendario.scss)
