@@ -78,4 +78,4 @@ Go to `src/styles/all.scss` and add your file, then save it. If you are running 
 
 The `zcomponents` library is a kit of user-interface web components coded for Vue.js (v2) and based on `win7.css` too. They will provide you a basic setup for user-interface building that is already familiar to the user.
 
-See [zcomponents](.src/components/zcomponents/zcomponents.md) to know more.
+See [zcomponents](./src/components/zcomponents/zcomponents.md) to know more.
