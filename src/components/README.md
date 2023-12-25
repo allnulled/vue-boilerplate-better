@@ -1,3 +1,5 @@
+Back to [src/README.md](../README.md)
+
 # src/components
 
 This directory is pretended to contain folders of the components based on Vue.js (v2). Each folder should contain 3 files:
