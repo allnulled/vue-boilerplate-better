@@ -57,27 +57,27 @@ Run from console: `npm run serve`
 
 ### Create new translation
 
-Go to [`src/i18n/translation/{ Language ISO }.js`](./src/i18n/README.md) and add a new key.
+Go to [`src/i18n/translation/{ Language ISO }.js`](./src/i18n) and add a new key.
 
 ### Create new utility
 
-Go to [`src/utils`](./src/utils/README.md) and create a new file with your utility. Then go to `src/utils/all.js` and add it too from there.
+Go to [`src/utils`](./src/utils) and create a new file with your utility. Then go to `src/utils/all.js` and add it too from there.
 
 ### Create new file
 
-Go to [`src/assets`](./src/assets/README.md) and add your new file.
+Go to [`src/assets`](./src/assets) and add your new file.
 
 ### Create new route
 
-Go to [`src/routes`](./src/routes/README.md), open the `factory.js` file and add a new route.
+Go to [`src/routes`](./src/routes), open the `factory.js` file and add a new route.
 
 ### Create new component
 
-Go to [`src/components`](./src/components/README.md) and create a new folder (in camel-case). Then inside, create your component file (in CapitalCase) with the `.vue` extension, and code there your component.
+Go to [`src/components`](./src/components) and create a new folder (in camel-case). Then inside, create your component file (in CapitalCase) with the `.vue` extension, and code there your component.
 
 ### Modify styles
 
-Go to [`src/styles/all.scss`](./src/styles/README.md) and add your file, then save it. If you are running `npm run dev-styles`, the Sass files will be compiled automatically.
+Go to [`src/styles/all.scss`](./src/styles) and add your file, then save it. If you are running `npm run dev-styles`, the Sass files will be compiled automatically.
 
 ### Reuse zcomponents
 
