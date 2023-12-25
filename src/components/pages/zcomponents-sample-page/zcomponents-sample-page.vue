@@ -1,10 +1,56 @@
 <template>
 <div>
 
+  <zpage title="ztree">
+    <ztree class="">
+      <details open>
+        <summary>Node 1</summary>
+        <ztreenode>
+          <ztreeitem>
+            <details>
+              <summary>Node 1.1</summary>
+              <ztreenode>
+                <ztreeitem>Node 1.1.1</ztreeitem>
+                <ztreeitem>Node 1.1.2</ztreeitem>
+                <ztreeitem>Node 1.1.3</ztreeitem>
+              </ztreenode>
+            </details>
+          </ztreeitem>
+          <ztreeitem>
+            <details>
+              <summary>Node 1.2</summary>
+              <ztreenode>
+                <ztreeitem>Node 1.2.1</ztreeitem>
+                <ztreeitem>Node 1.2.2</ztreeitem>
+                <ztreeitem>Node 1.2.3</ztreeitem>
+              </ztreenode>
+            </details>
+          </ztreeitem>
+          <ztreeitem>
+            <details>
+              <summary>Node 1.3</summary>
+              <ztreenode>
+                <ztreeitem>Node 1.3.1</ztreeitem>
+                <ztreeitem>Node 1.3.2</ztreeitem>
+                <ztreeitem>Node 1.3.3</ztreeitem>
+              </ztreenode>
+            </details>
+          </ztreeitem>
+        </ztreenode>
+      </details>
+    </ztree>
+  </zpage>
+
+  <zpage title="badgeviewer">
+    <span v-on:click="() => {$badges.send({ title: 'Example of badge', message: 'This is a badge.' })}">
+      <zbutton>Example of badge</zbutton>
+    </span>
+  </zpage>
+
   <zpage title="zmenubar" id="menubar">
     <zmenubar>
       <zmenubaritem>
-        <zlink>zmenubaritem.one</zlink>
+        <zlink>one</zlink>
         <zmenu>
           <zmenuitem>
             <img src="https://img.icons8.com/color/18/000000/monitor--v1.png" />
@@ -41,7 +87,7 @@
         </zmenu>
       </zmenubaritem>
       <zmenubaritem>
-        <zlink>zmenubaritem.two</zlink>
+        <zlink>two</zlink>
         <zmenu>
           <zmenuitem>
             <zlink href="#menubar">two.one</zlink>
@@ -55,7 +101,7 @@
         </zmenu>
       </zmenubaritem>
       <zmenubaritem>
-        <zlink>zmenubaritem.three</zlink>
+        <zlink>three</zlink>
         <zmenu>
           <zmenuitem>
             <zlink href="#menubar">three.one</zlink>
@@ -71,30 +117,41 @@
     </zmenubar>
   </zpage>
 
-  <zpage title="zmenu">
-    <zmenu>
+  <zpage title="zmenu" id="menu">
+    <zmenu style="max-width:200px;">
       <zmenuitem>
-        <zlink>One.one</zlink>
+        <zlink>One.one <span style="float:right;">▸</span></zlink>
+        <zmenu style="max-width:200px;">
+          <zmenuitem>
+            <zlink href="#menu">One.one.one</zlink>
+          </zmenuitem>
+          <zmenuitem>
+            <zlink href="#menu">One.one.two</zlink>
+          </zmenuitem>
+          <zmenuitem>
+            <zlink href="#menu">One.one.three</zlink>
+          </zmenuitem>
+        </zmenu>
       </zmenuitem>
       <zmenuitem>
-        <zlink>One.two</zlink>
+        <zlink href="#menu">One.two</zlink>
       </zmenuitem>
       <zmenuitem class="has-divider">
-        <zlink>One.three</zlink>
+        <zlink href="#menu">One.three</zlink>
       </zmenuitem>
       <zmenuitem aria-disabled="true">
-        <zlink>One.four</zlink>
+        <zlink href="#menu">One.four</zlink>
       </zmenuitem>
       <zmenuitem aria-disabled="true" class="has-divider">
-        <zlink>One.five</zlink>
+        <zlink href="#menu">One.five</zlink>
       </zmenuitem>
       <zmenuitem>
         <img src="https://img.icons8.com/color/18/000000/monitor--v1.png" />
-        <zlink>One.six</zlink>
+        <zlink href="#menu">One.six</zlink>
       </zmenuitem>
       <zmenuitem>
         <img src="https://img.icons8.com/color/18/000000/monitor--v1.png" />
-        <zlink>One.seven</zlink>
+        <zlink href="#menu">One.seven</zlink>
       </zmenuitem>
     </zmenu>
   </zpage>

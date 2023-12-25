@@ -1,7 +1,7 @@
 <template>
   <div class="component Topbar">
     <div class="topbar_height"></div>
-    <div class="position_fixed top_0 left_0 right_0 shadowed" style="z-index:9999;">
+    <div class="topbar_fixed position_fixed top_0 left_0 right_0 shadowed" style="z-index:9999;">
       <div class="display_table topbar_height background_color_1">
         <div class="display_table_cell width_1x100 height_100x100" style="padding: 1px;">
           <button class="button height_100x100 topbar_height_as_width min_width_auto min_height_auto opacity_09" v-on:click="onNavigationButtonClicked">...</button>

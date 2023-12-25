@@ -2,9 +2,14 @@
     <div class="component BadgeViewer">
       <div class="position_fixed bottom_0 left_0 right_0">
         <div class="badge_viewer">
-          <div class="badge_style" :class="'badge_type_' + badge.mode" v-for="(badge, badgeIndex) in current_badges" v-bind:key="'badge-id-' + badgeIndex" v-on:click="badge.close">
-            <div class="badge_title">{{ badge.title }}</div>
-            <div class="badge_message">{{ badge.message }}</div>
+          <div class="window" :class="'badge_type_' + badge.mode" v-for="(badge, badgeIndex) in current_badges" v-bind:key="'badge-id-' + badgeIndex" v-on:click="badge.close">
+            <div class="title-bar">
+              <div class="title-bar-text">{{ badge.title }}</div>
+            </div>
+            <div class="window-body padding_1">{{ badge.message }}</div>
+            <div class="status-bar">
+              <div class="status-bar-field">Mode: {{ badge.mode }}</div>
+            </div>
           </div>
         </div>
       </div>
@@ -45,11 +50,12 @@ export default {
         const options = Object.assign({}, DEFAULT_BADGE_OPTIONS, badgeOptionsParameter, { id });
         const close = () => {
           const position = this.current_badges.indexOf(options);
+          clearTimeout(options.timeout_id);
           this.current_badges.splice(position, 1);
         };
         options.close = close;
         this.current_badges.unshift(options);
-        setTimeout(close, options.timeout);
+        options.timeout_id = setTimeout(close, options.timeout);
         return { badge: options, close };
       },
 

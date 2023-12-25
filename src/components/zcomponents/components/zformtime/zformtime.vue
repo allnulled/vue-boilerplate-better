@@ -6,7 +6,7 @@
   <table class="zformtime_table">
     <tr>
       <td style="vertical-align:top;">
-        <input type="text" class="zformtime_input" />
+        <input type="text" class="zformtime_input" v-model="value" disabled="true" />
       </td>
       <td style="vertical-align:top;">
         <button class="zformtime_button" v-on:click="toggle_calendar">...</button>
@@ -23,8 +23,8 @@
 export default {
   props: {
     initialValue: {
-      type: Date,
-      default: function() { return new Date() }
+      type: String,
+      default: function() { return "" }
     }
   },
   data() {

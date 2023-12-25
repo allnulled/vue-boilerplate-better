@@ -61,6 +61,9 @@ import ztabslayout from "./components/ztabslayout/ztabslayout.vue";
 import ztabpanel from "./components/ztabpanel/ztabpanel.vue";
 import ztitle from "./components/ztitle/ztitle.vue";
 import ztooltip from "./components/ztooltip/ztooltip.vue";
+import ztree from "./components/ztree/ztree.vue";
+import ztreeitem from "./components/ztreeitem/ztreeitem.vue";
+import ztreenode from "./components/ztreenode/ztreenode.vue";
 import zwindow from "./components/zwindow/zwindow.vue";
 import zwindowbody from "./components/zwindowbody/zwindowbody.vue";
 import zwindowfooter from "./components/zwindowfooter/zwindowfooter.vue";
@@ -131,6 +134,9 @@ export default {
   ztabpanel,
   ztitle,
   ztooltip,
+  ztree,
+  ztreeitem,
+  ztreenode,
   zwindow,
   zwindowbody,
   zwindowfooter,

@@ -19,4 +19,4 @@ The current components associated with this project are:
 - [src/pages/home-page/HomePage.vue](./pages/home-page/HomePage.md).
 - [src/pages/settings-page/SettingsPage.vue](./pages/settings-page/SettingsPage.md).
 - [src/pages/zcomponents-sample-page/zcomponents-sample-page.vue](./pages/zcomponents-sample-page/zcomponents-sample-page.md).
-- [src/zcomponents/zcomponents.vue](./zcomponents/zcomponents.md).
+- [src/zcomponents](./zcomponents/zcomponents.md).

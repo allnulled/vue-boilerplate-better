@@ -198,6 +198,10 @@
   color: black !important;
 }
 
+.win7 ul[role=menubar].zmenubar {
+  background: linear-gradient(#fff 20%, #dae1f0 25%, #a4c2ff 43%, #91afff 48%, #678cfd) !important;
+}
+
 .zmenubaritem {
   padding: 0px !important;
 }
@@ -320,6 +324,15 @@
   color: #FFF;
   font-size: 18px;
   padding: 12px;
+}
+
+.Topbar {
+  background-color: white;
+}
+
+.Topbar .topbar_fixed {
+  background-color: white;
+  box-shadow: 0 0 4px black;
 }
 
 h3 {
@@ -512,29 +525,6 @@ hr {
 }
 
 /* STYLES THAT OVERRIDE "app.css" */
-.button {
-  border: 1px solid #CCCCCC;
-  background-color: #FFFFFF;
-  border-radius: 0pt;
-  cursor: pointer;
-}
-
-.button:hover {
-  opacity: 1;
-}
-
-.shadowed {
-  box-shadow: 0 0 1px black;
-}
-
-.background_color_1 {
-  background-color: #FFFFFF;
-}
-
-.opacity_09 {
-  opacity: 0.9;
-}
-
 /* GENERAL */
 * {
   box-sizing: border-box;
@@ -663,6 +653,10 @@ body {
 
 .text_align_center {
   text-align: center;
+}
+
+.text_align_justify {
+  text-align: justify;
 }
 
 /* VERTICAL_ALIGN */
