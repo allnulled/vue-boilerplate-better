@@ -48,15 +48,14 @@ Clone the repo in a fresh directory, then from console: `npm install`
 
 ## Directory structure
 
-- [src](./src/README.md)
-   - [assets](./src/assets/README.md)
-   - [components](./src/components/README.md)
-   - [database](./src/database/README.md)
-   - [i18n](./src/i18n/README.md)
-   - [routes](./src/routes/README.md)
-   - [styles](./src/styles/README.md)
-   - [utils](./src/utils/README.md)
-
+- [src](./src)
+   - [assets](./src/assets)
+   - [components](./src/components)
+   - [database](./src/database)
+   - [i18n](./src/i18n)
+   - [routes](./src/routes)
+   - [styles](./src/styles)
+   - [utils](./src/utils)
 
 
 ## Usage
