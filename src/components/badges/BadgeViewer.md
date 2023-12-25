@@ -1,4 +1,4 @@
-Back to [src/components][../README.md]
+Back to [src/components](../README.md)
 
 # src/components/badges/BadgeViewer.vue
 

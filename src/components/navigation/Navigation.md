@@ -1,4 +1,4 @@
-Back to [src/components][../README.md]
+Back to [src/components](../README.md)
 
 # src/components/navigation/Navigation.vue
 

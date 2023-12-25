@@ -1,4 +1,4 @@
-Back to [src/components]
+Back to [src/components/pages](../README.md)
 
 # src/components/pages/settings-page/SettingsPage.vue
 
