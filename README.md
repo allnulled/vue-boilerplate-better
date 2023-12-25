@@ -48,6 +48,8 @@ Clone the repo in a fresh directory, then from console: `npm install`
 
 ## Directory structure
 
+The `vue-boilerplate-better` follows the next directory structure:
+
 - [src](./src)
    - [assets](./src/assets)
    - [components](./src/components)
@@ -57,6 +59,7 @@ Clone the repo in a fresh directory, then from console: `npm install`
    - [styles](./src/styles)
    - [utils](./src/utils)
 
+You can navigate the documentation through these links.
 
 ## Usage
 
