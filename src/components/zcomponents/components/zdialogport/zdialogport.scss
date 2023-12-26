@@ -21,12 +21,14 @@
 .zdialogport > div > table > tbody > tr > td > div {
     display: inline-block;
     text-align: left;
-    max-width: 400px;
-    width: 100%;
+    width: auto;
+    min-width: 100px;
+    min-height: 100px;
 }
 .zdialogport > div > table > tbody > tr > td > div > .zwindow {
 }
 .zdialogport > div > table > tbody > tr > td > div > .zwindow > .zwindowbody {
     min-height: auto;
     overflow: scroll;
+    resize: both;
 }

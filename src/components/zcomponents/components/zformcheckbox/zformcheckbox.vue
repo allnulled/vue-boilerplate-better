@@ -5,7 +5,7 @@
   </div>
   <div>
     <div v-on:click="toggle_option">
-      <input class="zformcheckbox_input" type="checkbox" v-model="value" />
+      <input class="zformcheckbox_input" type="checkbox" v-model="value" :name="name" />
       <label>{{ value ? messageOn : messageOff }}</label>
     </div>
   </div>
@@ -24,6 +24,10 @@ export default {
     onChange: {
       type: Function,
       default: function () {}
+    },
+    name: {
+      type: String,
+      default: function () { return "default" }
     },
     messageOn: {
       type: String,

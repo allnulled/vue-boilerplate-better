@@ -7,6 +7,7 @@
     <input
       class="zformfield_input"
       type="text"
+      :name="name"
       v-model="value"
     />
   </div>
@@ -25,6 +26,10 @@ export default {
     onChange: {
       type: Function,
       default: function () {}
+    },
+    name: {
+      type: String,
+      default: function () { return "default"; }
     }
   },
   data() {

@@ -1,6 +1,8 @@
 <template>
     <div class="component AboutPage">
-        <div>About page</div>
+        <zjumbotron>{{ $t("About") }}</zjumbotron>
+        <ztitle>{{ $t("About") }}</ztitle>
+        <zlayout>{{ $t("More about us.") }}</zlayout>
     </div>
 </template>
 

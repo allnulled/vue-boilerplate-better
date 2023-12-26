@@ -14,6 +14,7 @@ import storage from "./database/storage.js";
 import database from "./database/database.js";
 import badges from "./components/badges/badges.js";
 import utils from "./utils/all.js";
+import directives from "./directives/all.js";
 
 Vue.config.productionTip = false
 
@@ -36,6 +37,12 @@ Vue.prototype.$utils = utils;
 Vue.prototype.$noop = () => 0;
 Vue.prototype.$window = window;
 Vue.prototype.$vue = Vue;
+
+/* DIRECTIVES */
+for(let directive_id in directives) {
+  const directive = directives[directive_id];
+  Vue.directive(directive_id, directive);
+}
 
 /* COMPONENTS */
 for (let componentId in components) {

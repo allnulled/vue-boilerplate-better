@@ -31,6 +31,8 @@ import zlayoutnopaddingvertical from "./components/zlayoutnopaddingvertical/zlay
 import zlayoutvertical from "./components/zlayoutvertical/zlayoutvertical.vue";
 import zlayoutverticalitem from "./components/zlayoutverticalitem/zlayoutverticalitem.vue";
 import zlink from "./components/zlink/zlink.vue";
+import zlist from "./components/zlist/zlist.vue";
+import zlistitem from "./components/zlistitem/zlistitem.vue";
 import zmenubar from "./components/zmenubar/zmenubar.vue";
 import zmenubaritem from "./components/zmenubaritem/zmenubaritem.vue";
 import zmenu from "./components/zmenu/zmenu.vue";
@@ -104,6 +106,8 @@ export default {
   zlayoutvertical,
   zlayoutverticalitem,
   zlink,
+  zlist, 
+  zlistitem,
   zmenubar,
   zmenubaritem,
   zmenu,

@@ -1,6 +1,8 @@
 <template>
     <div class="component ContactPage">
-        <div>Contact page</div>
+        <zjumbotron>{{ $t("Contact") }}</zjumbotron>
+        <ztitle>{{ $t("Contact") }}</ztitle>
+        <zlayout>{{ $t("Where to find us.") }}</zlayout>
     </div>
 </template>
 

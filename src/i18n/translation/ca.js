@@ -5,5 +5,6 @@ export default {
     "Home": "Inici",
     "Contact": "Contacte",
     "About this": "Sobre això",
-    "Settings": "Configuracions"
+    "Settings": "Configuracions",
+    "Where it all starts.": "On tot comença."
 }

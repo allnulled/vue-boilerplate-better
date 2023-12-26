@@ -28,7 +28,7 @@ export default {
     generate_html_1(html, title, footer) {
       try {
         let html_vue = "";
-        html_vue += "<zwindow>";
+        html_vue += "<zwindow v-draggabilized='{handle:\".title-bar\"}'>";
         html_vue += " <zwindowtitle>";
         html_vue += "  " + title;
         html_vue += " </zwindowtitle>";
@@ -57,7 +57,7 @@ export default {
     generate_html_2(html, title, footer, button_accept = "Sí", button_reject = "No") {
       try {
         let html_vue = "";
-        html_vue += "<zwindow>";
+        html_vue += "<zwindow v-draggabilized='{handle:\".title-bar\"}'>";
         html_vue += " <zwindowtitle>";
         html_vue += "  " + title;
         html_vue += " </zwindowtitle>";
@@ -94,7 +94,7 @@ export default {
     generate_html_3(html, title, footer, button_accept = "Sí") {
       try {
         let html_vue = "";
-        html_vue += "<zwindow>";
+        html_vue += "<zwindow v-draggabilized='{handle:\".title-bar\"}'>";
         html_vue += " <zwindowtitle>";
         html_vue += "  " + title;
         html_vue += " </zwindowtitle>";

@@ -5,5 +5,6 @@ export default {
     "Home": "Inicio",
     "Contact": "Contacto",
     "About this": "Sobre esto",
-    "Settings": "Configuraciones"
+    "Settings": "Configuraciones",
+    "Where it all starts.": "Donde todo comienza."
 }

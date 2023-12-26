@@ -1,6 +1,8 @@
 <template>
     <div class="component HomePage">
-        <div>Home page</div>
+        <zjumbotron>{{ $t("Home") }}</zjumbotron>
+        <ztitle>{{ $t("Home") }}</ztitle>
+        <zlayout>{{ $t("Where it all starts.") }}</zlayout>
     </div>
 </template>
 

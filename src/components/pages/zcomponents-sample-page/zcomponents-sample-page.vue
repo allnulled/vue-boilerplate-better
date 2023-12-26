@@ -1,6 +1,27 @@
 <template>
 <div>
 
+  <zpage title="dialogs by script tag">
+    <script id="dialogo_1" type="text/template">
+      <zformfield name="name">Name:</zformfield>
+      <zformfield name="surname">Surname:</zformfield>
+      <zformfield name="direction">Direction:</zformfield>
+      <zformfield name="telephone">Telephone:</zformfield>
+      <zformfield name="email">Email:</zformfield>
+      <zformfield name="id_number">ID number:</zformfield>
+      <zseparator />
+      <zbutton>Send</zbutton>
+    </script>
+    <span v-on:click="open_dialogo_uno">
+      <zbutton>Dialog one</zbutton>
+    </span>
+  </zpage>
+
+  <zpage title="autofocus directive">
+    <zformfield v-focus :on-change="v => form_field = v"></zformfield>
+    <div><b>Current value:</b> {{ form_field }}</div>
+  </zpage>
+
   <zpage title="ztree">
     <ztree class="">
       <details open>
@@ -374,10 +395,21 @@
 
   <zpage title="zcollapsible">
     <zcollapsible style="padding-left: 15px;">
-      <zcollapser>zcollapser</zcollapser>
-      <div>
-        ....
-      </div>
+      <zcollapser>1. zcollapser</zcollapser>
+      <zlist>
+        <zlistitem>
+          <zcollapsible style="padding-left: 15px;">
+            <zcollapser>1.1</zcollapser>
+            <zlist>
+              <zlistitem>
+                <zcollapsible style="padding-left: 15px;">
+                  <zcollapser>1.1.1</zcollapser>
+                </zcollapsible>
+              </zlistitem>
+            </zlist>
+          </zcollapsible>
+        </zlistitem>
+      </zlist>
     </zcollapsible>
   </zpage>
 
@@ -427,7 +459,12 @@ export default {
       form_checkbox: false
     };
   },
-  methods: {},
+  methods: {
+    async open_dialogo_uno() {
+      const resultado = await this.$dialogs.form(this.$window.document.getElementById('dialogo_1').innerHTML);
+      console.log(resultado);
+    }
+  },
   watch: {},
   computed: {},
   beforeCreate() {},
