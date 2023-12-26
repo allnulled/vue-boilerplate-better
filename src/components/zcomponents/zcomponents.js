@@ -7,6 +7,7 @@ import zcollapser from "./components/zcollapser/zcollapser.vue";
 import zcollapsible from "./components/zcollapsible/zcollapsible.vue";
 import zdialogport from "./components/zdialogport/zdialogport.vue";
 import zdialogcurrent from "./components/zdialogcurrent/zdialogcurrent.vue";
+import zfieldset from "./components/zfieldset/zfieldset.vue";
 import zform from "./components/zform/zform.vue";
 import zformcheckbox from "./components/zformcheckbox/zformcheckbox.vue";
 import zformcheckboxes from "./components/zformcheckboxes/zformcheckboxes.vue";
@@ -30,6 +31,7 @@ import zlayoutnopaddingtop from "./components/zlayoutnopaddingtop/zlayoutnopaddi
 import zlayoutnopaddingvertical from "./components/zlayoutnopaddingvertical/zlayoutnopaddingvertical.vue";
 import zlayoutvertical from "./components/zlayoutvertical/zlayoutvertical.vue";
 import zlayoutverticalitem from "./components/zlayoutverticalitem/zlayoutverticalitem.vue";
+import zlegend from "./components/zlegend/zlegend.vue";
 import zlink from "./components/zlink/zlink.vue";
 import zlist from "./components/zlist/zlist.vue";
 import zlistitem from "./components/zlistitem/zlistitem.vue";
@@ -82,6 +84,7 @@ export default {
   zcollapsible,
   zdialogport,
   zdialogcurrent,
+  zfieldset,
   zform,
   zformcheckbox,
   zformcheckboxes,
@@ -105,6 +108,7 @@ export default {
   zlayoutnopaddingvertical,
   zlayoutvertical,
   zlayoutverticalitem,
+  zlegend,
   zlink,
   zlist, 
   zlistitem,

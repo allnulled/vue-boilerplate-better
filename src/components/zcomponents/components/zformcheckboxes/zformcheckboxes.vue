@@ -1,6 +1,6 @@
 <template>
-<div class="Component zformcheckboxes">
-  <div>
+<div class="Component zformcheckboxes zformitem">
+  <div class="zformlabel">
     <slot></slot>
   </div>
   <div>

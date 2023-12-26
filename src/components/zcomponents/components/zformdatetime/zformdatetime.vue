@@ -1,6 +1,6 @@
 <template>
-<div class="Component zformdatetime">
-  <div>
+<div class="Component zformdatetime zformitem">
+  <div class="zformlabel">
     <slot></slot>
   </div>
   <table class="zformdatetime_table">

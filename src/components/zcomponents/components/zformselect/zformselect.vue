@@ -1,6 +1,6 @@
 <template>
-<div class="Component zformselect">
-  <div>
+<div class="Component zformselect zformitem">
+  <div class="zformlabel">
     <slot></slot>
   </div>
   <div>

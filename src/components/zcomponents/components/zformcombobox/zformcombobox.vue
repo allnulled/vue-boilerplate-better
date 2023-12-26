@@ -1,6 +1,6 @@
 <template>
-<div class="Component zformcombobox">
-  <div>
+<div class="Component zformcombobox zformitem">
+  <div class="zformlabel">
     <slot></slot>
   </div>
   <div>

@@ -1,6 +1,29 @@
 <template>
 <div>
 
+  <zpage title="zfieldset zlegend">
+    <zlayout>
+      <zfieldset>
+        <zlegend>Group A of buttons:</zlegend>
+        <zpanel>
+          <zformfield>Name:</zformfield>
+        </zpanel>
+      </zfieldset>
+      <zfieldset>
+        <zlegend>Group B of buttons:</zlegend>
+        <zpanel>
+          <zformfield>Name:</zformfield>
+        </zpanel>
+      </zfieldset>
+      <zfieldset>
+        <zlegend>Group C of buttons:</zlegend>
+        <zpanel>
+          <zformfield>Name:</zformfield>
+        </zpanel>
+      </zfieldset>
+    </zlayout>
+  </zpage>
+
   <zpage title="dialogs by script tag">
     <script id="dialogo_1" type="text/template">
       <zformfield name="name">Name:</zformfield>
