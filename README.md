@@ -6,6 +6,7 @@ Vue.js (v2) project boilerplate with some interesting features included.
 
 - [vue2-boilerplate-better](#vue2-boilerplate-better)
   - [Index](#index)
+  - [Online demo](#online-demo)
   - [Features](#features)
   - [Installation](#installation)
   - [Directory structure](#directory-structure)
@@ -19,6 +20,12 @@ Vue.js (v2) project boilerplate with some interesting features included.
     - [Create new component](#create-new-component)
     - [Modify styles](#modify-styles)
     - [Reuse zcomponents](#reuse-zcomponents)
+
+## Online demo
+
+Go to the online demo on:
+
+ - [https://allnulled.github.io/vue2-boilerplate-better](https://allnulled.github.io/vue2-boilerplate-better)
 
 ## Features
 
