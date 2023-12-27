@@ -17,6 +17,7 @@ import zformdatetime from "./components/zformdatetime/zformdatetime.vue";
 import zformfield from "./components/zformfield/zformfield.vue";
 import zformnumber from "./components/zformnumber/zformnumber.vue";
 import zformrange from "./components/zformrange/zformrange.vue";
+import zformsearchbox from "./components/zformsearchbox/zformsearchbox.vue";
 import zformselect from "./components/zformselect/zformselect.vue";
 import zformtextarea from "./components/zformtextarea/zformtextarea.vue";
 import zformtime from "./components/zformtime/zformtime.vue";
@@ -62,6 +63,7 @@ import ztableheader from "./components/ztableheader/ztableheader.vue";
 import ztablerow from "./components/ztablerow/ztablerow.vue";
 import ztableviewer from "./components/ztableviewer/ztableviewer.vue";
 import ztabslayout from "./components/ztabslayout/ztabslayout.vue";
+import ztabshorizontallayout from "./components/ztabshorizontallayout/ztabshorizontallayout.vue";
 import ztabpanel from "./components/ztabpanel/ztabpanel.vue";
 import ztitle from "./components/ztitle/ztitle.vue";
 import ztooltip from "./components/ztooltip/ztooltip.vue";
@@ -94,6 +96,7 @@ export default {
   zformfield,
   zformnumber,
   zformrange,
+  zformsearchbox,
   zformselect,
   zformtextarea,
   zformtime,
@@ -139,6 +142,7 @@ export default {
   ztablerow,
   ztableviewer,
   ztabslayout,
+  ztabshorizontallayout,
   ztabpanel,
   ztitle,
   ztooltip,

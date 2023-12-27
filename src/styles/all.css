@@ -94,7 +94,11 @@
 .zdialogport > div > table > tbody > tr > td > div > .zwindow > .zwindowbody {
   min-height: auto;
   overflow: scroll;
-  resize: both;
+  /*resize: both;*/
+}
+
+.zfieldset {
+  margin-bottom: 4px !important;
 }
 
 .zformitem {
@@ -135,6 +139,14 @@
 .zformdatetime_button {
   min-width: 20px !important;
   width: auto !important;
+}
+
+.zformsearchbox {
+  width: 100%;
+}
+
+.zformsearchbox > input[type=search] {
+  width: 100%;
 }
 
 .zformselect_input {
@@ -208,6 +220,15 @@
   padding: 4px;
   padding-top: 0px;
   padding-bottom: 0px;
+}
+
+.zlegend {
+  border: 1px solid #CCC;
+  padding: 4px;
+  padding-top: 2px;
+  border-radius: 4pt;
+  background-color: #E0E0E0;
+  color: black;
 }
 
 .zlist {
@@ -331,6 +352,53 @@
 
 .ztabpanel.active {
   display: block;
+}
+
+.ztabpanel {
+  display: none;
+}
+
+.ztabpanel.active {
+  display: block;
+}
+
+.ztabshorizontallayout > .horizontaltabs > [role=horizontaltablist] > button[role=horizontaltab] {
+  border-radius: 0;
+  color: #222;
+  display: block;
+  min-width: unset;
+  padding: 2px 6px;
+  text-decoration: none;
+  z-index: 1;
+  writing-mode: sideways-lr;
+}
+
+.ztabshorizontallayout > .horizontaltabs > [role=horizontaltablist] > button[role=horizontaltab][aria-selected=true] {
+  background: #fff;
+  border-right: 0;
+  box-shadow: none;
+  margin: 0px;
+  padding: 2px 5px;
+  position: relative;
+  z-index: 8;
+}
+
+.horizontaltabs {
+  display: table;
+  width: 100%;
+}
+
+.ztabshorizontallayout > .horizontaltabs > [role=horizontaltablist],
+.ztabshorizontallayout > .horizontaltabs > .horizontaltabpanel {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.ztabshorizontallayout > .horizontaltabs > [role=horizontaltablist] {
+  margin: 0;
+  padding: 0;
+  min-width: 24px;
+  max-width: 24px;
 }
 
 .ztabpanel {

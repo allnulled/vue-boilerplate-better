@@ -1,11 +1,17 @@
 <template>
   <fieldset class="Component zfieldset">
+    <zlegend v-if="legend">{{ legend }}</zlegend>
     <slot></slot>
   </fieldset>
 </template>
 <script>
   export default {
-    props: {},
+    props: {
+      legend: {
+        type: [String, Boolean],
+        default: function () { return false }
+      }
+    },
     data() {
       return {};
     },

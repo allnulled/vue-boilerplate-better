@@ -1,13 +1,66 @@
 <template>
 <div>
 
+  <zpage title="ztabshorizontallayout">
+    <ztabshorizontallayout :tabs="['Section 1', 'Section 2', 'Section 3']">
+      <ztabpanel>
+        <zfieldset legend="Form of section 1">
+          <zformfield>Name:</zformfield>
+          <zformfield>Surname:</zformfield>
+          <zformnumber>Age:</zformnumber>
+        </zfieldset>
+      </ztabpanel>
+      <ztabpanel>
+        <zfieldset legend="Form of section 2">
+          <zformfield>Name:</zformfield>
+          <zformfield>Surname:</zformfield>
+          <zformnumber>Age:</zformnumber>
+        </zfieldset>
+      </ztabpanel>
+      <ztabpanel>
+        <zfieldset legend="Form of section 3">
+          <zformfield>Name:</zformfield>
+          <zformfield>Surname:</zformfield>
+          <zformnumber>Age:</zformnumber>
+        </zfieldset>
+      </ztabpanel>
+    </ztabshorizontallayout>
+  </zpage>
+
+  <zpage title="ztabslayout">
+    <ztabslayout :tabs="['Section 1', 'Section 2', 'Section 3']">
+      <ztabpanel>
+        <zfieldset legend="Form of section 1">
+          <zformfield>Name:</zformfield>
+          <zformfield>Surname:</zformfield>
+          <zformnumber>Age:</zformnumber>
+        </zfieldset>
+      </ztabpanel>
+      <ztabpanel>
+        <zfieldset legend="Form of section 2">
+          <zformfield>Name:</zformfield>
+          <zformfield>Surname:</zformfield>
+          <zformnumber>Age:</zformnumber>
+        </zfieldset>
+      </ztabpanel>
+      <ztabpanel>
+        <zfieldset legend="Form of section 3">
+          <zformfield>Name:</zformfield>
+          <zformfield>Surname:</zformfield>
+          <zformnumber>Age:</zformnumber>
+        </zfieldset>
+      </ztabpanel>
+    </ztabslayout>
+  </zpage>
+
+  <zpage title="zformsearchbox">
+    <zformsearchbox :on-search="(v, component) => $dialogs.inform(v)" />
+  </zpage>
+
   <zpage title="zfieldset zlegend">
     <zlayout>
-      <zfieldset>
-        <zlegend>Group A of buttons:</zlegend>
-        <zpanel>
-          <zformfield>Name:</zformfield>
-        </zpanel>
+      <zfieldset legend="Group A of buttons:">
+        <zformfield>Name:</zformfield>
       </zfieldset>
       <zfieldset>
         <zlegend>Group B of buttons:</zlegend>
@@ -15,11 +68,8 @@
           <zformfield>Name:</zformfield>
         </zpanel>
       </zfieldset>
-      <zfieldset>
-        <zlegend>Group C of buttons:</zlegend>
-        <zpanel>
-          <zformfield>Name:</zformfield>
-        </zpanel>
+      <zfieldset legend="Group C of buttons:">
+        <zformfield>Name:</zformfield>
       </zfieldset>
     </zlayout>
   </zpage>
@@ -41,7 +91,7 @@
   </zpage>
 
   <zpage title="autofocus directive">
-    <zformfield v-focus :on-change="v => form_field = v"></zformfield>
+    <input type="text" v-focus v-model="form_field" />
     <div><b>Current value:</b> {{ form_field }}</div>
   </zpage>
 
