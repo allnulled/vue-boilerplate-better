@@ -1,6 +1,11 @@
 <template>
 <div>
 
+  <zpage title="autofocus directive">
+    <input type="text" v-focus v-model="form_field" />
+    <div><b>Current value:</b> {{ form_field }}</div>
+  </zpage>
+
   <zpage title="ztabshorizontallayout">
     <ztabshorizontallayout :tabs="['Section 1', 'Section 2', 'Section 3']">
       <ztabpanel>
@@ -88,11 +93,6 @@
     <span v-on:click="open_dialogo_uno">
       <zbutton>Dialog one</zbutton>
     </span>
-  </zpage>
-
-  <zpage title="autofocus directive">
-    <input type="text" v-focus v-model="form_field" />
-    <div><b>Current value:</b> {{ form_field }}</div>
   </zpage>
 
   <zpage title="ztree">
