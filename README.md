@@ -25,7 +25,7 @@ Vue.js (v2) project boilerplate with some interesting features included.
 
 Go to the online demo on:
 
- - [https://allnulled.github.io/vue2-boilerplate-better](https://allnulled.github.io/vue2-boilerplate-better)
+ - [https://allnulled.github.io/vue-boilerplate-better](https://allnulled.github.io/vue-boilerplate-better)
 
 ## Features
 
