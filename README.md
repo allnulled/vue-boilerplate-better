@@ -33,7 +33,7 @@ npm install
 - **Internationalization** based on [**i18next**](https://www.i18next.com/overview/api) and [**vue-i18next**](https://panter.github.io/vue-i18next/)
 - **Utilities** included
 - **Styles** with [**Scss**](https://sass-lang.com/)
-- **Database** based on [**RanasDB](https://github.com/allnulled/ranas-db) + [**Dexie.js**](https://dexie.org/) + [**Dexie-relationships**](https://www.npmjs.com/package/dexie-relationships) [**IndexedDB**](https://developer.mozilla.org/es/docs/Web/API/IndexedDB_API).
+- **Database** based on [**RanasDB**](https://github.com/allnulled/ranas-db) + [**Dexie.js**](https://dexie.org/) + [**Dexie-relationships**](https://www.npmjs.com/package/dexie-relationships) [**IndexedDB**](https://developer.mozilla.org/es/docs/Web/API/IndexedDB_API).
 - **Storage** based on [**localStorage**](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage).
 - **Routing** based on [**vue-router**](https://github.com/vuejs/vue-router)
 - **AJAX** based on [**axios**](https://axios-http.com/es/docs/intro)
