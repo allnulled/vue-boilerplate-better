@@ -1,5 +1,1 @@
 # TODO
-
-[ ] zformdate
-[ ] zformdatetime
-[ ] zformtime

@@ -2,24 +2,27 @@
   <div id="app" class="win7">
     <WelcomeView v-if="!is_loaded" />
     <div class="app_header">
-      <Topbar ref="Topbar" />
+      <znavigationtopbar ref="znavigationtopbar" :root="this" />
     </div>
     <div class="app_static">
-      <BadgeViewer ref="BadgeViewer" />
+      <zbadgeport ref="zbadgeport" />
+      <zdialogport />
+      <znavigationpanel ref="znavigationpanel" :root="this" />
     </div>
     <!-- You can start here! -->
     <div class="app_body">
       <router-view></router-view>
     </div>
     <div class="app_footer">
-      <Footer />
+      <zfooter>
+        <span>{{ $t("Made with") }} <img class="footer_love_icon" src="favicon.ico" alt="love" /> {{ $t("by") }} <a href="https://github.com/allnulled">allnulled</a></span>
+      </zfooter>
     </div>
-    <Navigation ref="Navigation" />
   </div>
 </template>
 
 <script>
-import "./styles/all.css";
+import "./lib/styles/all.css";
 
 export default {
   name: "App",
@@ -46,15 +49,13 @@ export default {
     }
   },
   created() {},
-  beforeMount() {},
+  beforeMount() {
+
+  },
   async mounted() {
     try {
       await this.$badges.initialize(this);
-      await this.$badges.send({ title: "What", message: "Whateverrrr" });
-      // @TODO: remove this conditional once you get the thing:
-      if(!this.$route.path.startsWith("/zcomponents")) {
-        this.$router.push("/zcomponents");
-      }
+      await this.$badges.send({ title: "Welcome", message: "" + this.$metadata.app + " (v" + this.$metadata.version + ")"});
       await this.$utils.timeout(3000);
       this.is_loaded = true;
     } catch (error) {
@@ -75,7 +76,7 @@ export default {
 <style>
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto"), url(./assets/fonts/Roboto/Roboto-Regular.ttf);
+  src: local("Roboto"), url(./lib/assets/fonts/Roboto/Roboto-Regular.ttf);
 }
 #app {
   font-family: Roboto, Avenir, Helvetica, Arial, sans-serif;

@@ -1,20 +1,20 @@
 export default {
-    app: "Nueva app",
+    app: "Vue Boilerplate Better",
     version: "0.0.1",
-    url: "https://github.com/allnulled",
+    url: "https://github.com/allnulled/vue-boilerplate-better",
     author: {
         name: "allnulled",
         url: "https://github.com/allnulled"
     },
     settings: {
         storage: {
-            id: "NUEVA_APP_STORAGE",
+            id: "VUE_BOILERPLATE_BETTER_STORAGE",
         },
         database: {
-            id: "NUEVA_APP_DATABASE"
+            id: "VUE_BOILERPLATE_BETTER_DATABASE"
         },
         server: {
-            baseURL: "https://github.com/allnulled/"
+            baseURL: "https://github.com/allnulled/vue-boilerplate-better"
         }
     }
 }
