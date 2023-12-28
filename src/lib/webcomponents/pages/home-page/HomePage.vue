@@ -3,7 +3,7 @@
   <zjumbotron>{{ $t("Home") }}</zjumbotron>
   <ztitle>{{ $t("Home") }}</ztitle>
   <zspacedlayoutnopaddingvertical>
-    <zparagraph>Home page.</zparagraph>
+    <zparagraph>{{$t("Home page")}}.</zparagraph>
   </zspacedlayoutnopaddingvertical>
 </div>
 </template>

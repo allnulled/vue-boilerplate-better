@@ -25,5 +25,8 @@ export default {
     "Cancel": "Cancelar",
     "Select your language": "Selecciona el teu idioma",
     "About us": "Sobre nosaltres",
-    "More about us.": "Més sobre nosaltres."
+    "More about us.": "Més sobre nosaltres.",
+    "All zcomponents": "Tots els «zcomponents»",
+    "Home page": "Pàgina d'inici",
+    "Website": "Lloc web"
 }

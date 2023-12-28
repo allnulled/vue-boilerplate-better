@@ -28,7 +28,12 @@
                   </router-link>
                 </li>
                 <li class="width_100x100" v-on:click="() => is_opened = false">
-                  <a href="https://github.com/allnulled/notetaker" target="_blank">
+                  <router-link to="/zcomponents">
+                    <button class="width_100x100">{{ $t("All zcomponents") }}</button>
+                  </router-link>
+                </li>
+                <li class="width_100x100" v-on:click="() => is_opened = false">
+                  <a href="https://github.com/allnulled/vue-boilerplate-better" target="_blank">
                     <button class="width_100x100">{{ $t("Github page") }}</button>
                   </a>
                 </li>

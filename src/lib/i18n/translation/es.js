@@ -26,5 +26,8 @@ export default {
     "Cancel": "Cancelar",
     "Select your language": "Selecciona tu idioma",
     "About us": "Sobre nosotros",
-    "More about us.": "Más sobre nosotros."
+    "More about us.": "Más sobre nosotros.",
+    "All zcomponents": "Todos los «zcomponents»",
+    "Home page": "Página de inicio",
+    "Website": "Sitio web"
 }
