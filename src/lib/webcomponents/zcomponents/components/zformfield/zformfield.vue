@@ -8,6 +8,7 @@
       class="zformfield_input"
       type="text"
       :name="name"
+      :placeholder="placeholder"
       v-model="value"
     />
   </div>
@@ -30,6 +31,10 @@ export default {
     name: {
       type: String,
       default: function () { return "default"; }
+    },
+    placeholder: {
+      type: String,
+      default: function () { return ""; }
     }
   },
   data() {

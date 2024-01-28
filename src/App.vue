@@ -1,23 +1,11 @@
 <template>
   <div id="app" class="win7">
-    <WelcomeView v-if="!is_loaded" />
-    <div class="app_header">
-      <znavigationtopbar ref="znavigationtopbar" :root="this" />
-    </div>
     <div class="app_static">
       <zbadgeport ref="zbadgeport" />
       <zdialogport />
       <znavigationpanel ref="znavigationpanel" :root="this" />
     </div>
-    <!-- You can start here! -->
-    <div class="app_body">
-      <router-view></router-view>
-    </div>
-    <div class="app_footer">
-      <zfooter>
-        <span>{{ $t("Made with") }} <img class="footer_love_icon" src="favicon.ico" alt="love" /> {{ $t("by") }} <a href="https://github.com/allnulled">allnulled</a></span>
-      </zfooter>
-    </div>
+    <ApplicationPage />
   </div>
 </template>
 
